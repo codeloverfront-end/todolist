@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/listToDo.css">
+</head>
+<body>
+    <form>
+        <label for="title">Titre de votre tâche</label>
+        <input type="text" name="title" id="title">
+
+        <label for="description">Description de votre tâche</label>
+        <textarea name="description" id="description" placeholder="Mettez une description de votre tâche"></textarea>
+
+        <label for="date">Date d'écheance</label>
+        <input type="date" name="date" id="date">
+
+        <label for="priority">Priorité</label>
+        <label><input type="radio" name="first" value="1" id="NU">Not urgent</label>
+        <label><input type="radio" name="two" value="2" id="N">Normal</label>
+        <label><input type="radio" name="three" value="3" id="U">Urgent</label>
+        <button>Envoyer</button>
+    </form>
+
+    <script type="module" src="mainToDo.js"></script>
+</body>
+</html>
