@@ -1,7 +1,7 @@
 // title: string,
 // description: string,
-// dueDate: string,
-// priority: string
+// dueDate: Date,
+// priority: not urgent | normal | urgent
 // I create a class to manage interaction user - toDoList
 class listToDo {
   constructor(title, description, dueDate, priority) {
