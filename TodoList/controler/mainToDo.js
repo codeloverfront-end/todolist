@@ -4,14 +4,6 @@
 // priority: not urgent | normal | urgent
 // I create a class to manage interaction user - toDoList
 class manageList {
-  constructor() {
-    this.title = title;
-    this.description = description;
-    this.dueDate = dueDate;
-    this.priority = priority;
-    this.screen = screen;
-  }
-
   // Using DOM
   targetHTML() {
     this.titleHTML = document.querySelector("#title");
