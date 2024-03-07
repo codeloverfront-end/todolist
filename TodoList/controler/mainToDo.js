@@ -3,7 +3,7 @@
 // dueDate: Date,
 // priority: not urgent | normal | urgent
 // I create a class to manage interaction user - toDoList
-class createListToDo {
+class manageList {
   constructor() {
     this.title = title;
     this.description = description;
@@ -68,3 +68,7 @@ class createListToDo {
     Priorité : ${this.priority.value}`;
   }
 }
+let test1 = new manageList();
+test1.addToDoList();
+test1.displayToDoList();
+console.log(test1);
